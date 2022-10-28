@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Trajan Pro Regular, comic-sans;
+
+}
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/Metroid.gif);
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	background-attachment: fixed;
+}
+.navbar {
+	 display:flex;
+	padding: 1px;
+	justify-content: space-between;
+	align-items: center;
+	 padding: 1px;
+	 text-align:: center;
+	 position:relative;
+
+}
+.navbar{
+	flex: 1;
+	text-align: right;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+}
+.navbar {
+        overflow: hidden;
+    }
+
+    .navbar ul li a {
+        border-radius: 20px;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .navbar ul li a:hover {
+        border-radius: 23px;
+        background-color: #003366;
+        color: white;
+        width: 100%;
+        transition: 0.8s;
+    }
+.HK{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  text-align: center;
+}
+.logo{
+    display: block;
+    margin-bottom: 1px;
+    transition: transform .2s;
+}
+.logo:hover {
+    transform: scale(1.2);
+  }
+ .hornet{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align:center;
+ }
+ .hornet h1{
+	 font-size: 54px;
+ }
+.hornet p{ 
+	margin: 10px 0 40px;
+	font-size: 14px;
+}
+.h-btn{	
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid white;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.h-btn:hover{
+	border: 1px solid  #003366;
+	background:  #003366;
+	transition: 1s;
+}
+.gifs{ 
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+.Aboutmebg{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/sleep.gif);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: none;
+}
+.deathpic{
+  padding: 80px;
+  image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/infected.gif);
+  float: left;
+	border-radius: 50%;
+	
+}
+.death{ 
+	Color: white;
+	text-align: center;
+	align-items: center;
+}
+.death h1{ 
+	Font-size: 45px;
+	float: center;
+}
+.death p{
+	Font-size: 17px;
+	float: center;
+}
+.texty{ 
+	background-color: rgb(183, 196, 295,.5);
+	font-family: comic-sans;
+}
+.hkbg{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/sit.gif);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: none;
+}
+.words{
+	color: white;
+	text-align: center;
+	align-items: center;
+	float: center;
+	background-color: ;
+}	
+.hklibg{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/stand.gif);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: none;
+}
+.bird{
+    margin-bottom: 10px;
+    transition: transform .2s;
+	padding: 50px;
+	float: center;
+	background: none;
+	display: inline-block;
+	margin-right: 66px;
+}
+.bird:hover {
+    transform: scale(1.2);
+  }
+  .libg{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Comsci/gab.gif);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: none;
+ }
+ .brid{
+    margin-bottom: 10px;
+    transition: transform .2s;
+	padding: 80px;
+	float: center;
+	background: none;
+	display: inline-block;
+	margin-right: 110px;
+}
+.brid:hover {
+    transform: scale(1.2);
+ }
